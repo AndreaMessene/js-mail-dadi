@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- collegamento css -->
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    
+    <!------------ MAIL ------------>
+
+    <div class="container">
+        <h2>inserisci le tue credenziali</h2>
+            <label for="fname">Nome</label>
+            <input id="nome" type="text" placeholder="nome" value="">
+        
+            <label for="lname">Cognome</label>
+            <input id="cognome" type="text" placeholder="cognome" value="">
+        
+            <label for="email"> La tua email</label>
+            <input id="mail" type="email" placeholder="email" value="">
+        
+            <label for="pwd">Password</label>
+            <input id="password" type="password" placeholder="password" value="">
+        
+        <button id="btn-entra" onclick="entra ()">Entra</button>
+
+    </div>
+
+
+    <!------------ DADI ------------>
+
+    <div id="gioco">
+        <!------------- GIOCATORE 1 ------------->
+        <div id="giocatori">
+            <div class="box-1">
+                <h1>giocatore 1</h1>
+                <div id="giocatore-1">
+                    <input type="text" id="numero" value="">
+                </div>
+            </div>
+            <!------------- COMPUTER ------------->
+            <div class="box-2">
+                <h1>Computer</h1>
+                <div id="computer">
+                
+                </div>
+                
+            </div>
+        </div>
+
+        <div >
+            <button id="btn btn-primary" onclick="avvia()"> Avvia </button>
+            <br/>
+            <span id="vincitore"></span>
+
+        </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>

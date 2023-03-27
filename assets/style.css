@@ -1,0 +1,63 @@
+.container{
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+input{
+    max-width: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 25px;
+
+}
+
+/************* DADI **************/
+
+#gioco{
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lawngreen;
+}
+
+#giocatori{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1{
+    margin-left: 10px;
+}
+
+#giocatore-1{
+    width: 150px;
+    height: 150px;
+    background-color: white
+}
+
+.box-2{
+    margin-right: 10px;
+}
+
+#computer{
+    width: 150px;
+    height: 150px;
+    background-color: white
+}
